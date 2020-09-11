@@ -350,8 +350,8 @@ if __name__ == '__main__':
     # Add each variable to its corresponding array
     reset_costs =   [admin_email, admin_bomb, admin_escalate, a_reset, 
                     user_email, user_bomb, user_escalate, u_reset]
-    cost_array = [pp1_login, pp2_login_pi1, pp2_login
-    reset_probability_array = [prob_initial_reset, prob_email_reset, prob_bomb_reset
+    cost_array = [pp1_login, pp2_login_pi1, pp2_login]
+    reset_probability_array = [prob_initial_reset, prob_email_reset, prob_bomb_reset]
     probability_array = [pi1_nop, pi1_f, pi1_b, pi2_nop, pi2_f, pi2_b]
 
     # Run the simulation with the input parameters, return Nash Equilibrium and payoffs
